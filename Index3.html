@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería Alfa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 10px 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        nav ul li {
+            margin-right: 15px;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        #banner {
+            background-color: #000000;
+            color: #fcfcfc;
+            text-align: center;
+            padding: 50px 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .services, .reviews {
+            display: flex;
+            flex-direction: column;
+            margin: 30px 0;
+        }
+        .service {
+            background: #f9f9f9;
+            margin: 12px 0;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #000000;
+            color: #fcfcfc;
+            text-align: center;
+            padding: 15px 0;
+        }
+        footer a {
+            color: #777777;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        img {
+    width: 100%;        /* Hace que la imagen ocupe todo el ancho disponible */
+    height: auto;       /* Mantiene la proporción de la imagen */
+    margin: 0;          /* Elimina cualquier margen que pueda estar aplicándose */
+    border-radius: 0;   /* Elimina el borde redondeado, si no se desea */
+}
+
+        /* Estilo para el texto de "Sobre Nosotros" */
+        #about .text-container {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 8px;
+            width: calc(100% - 40px);
+            box-sizing: border-box;
+        }
+        /* Estilo para los bloques de reseñas */
+        #reviews .reviews {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        #reviews blockquote {
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin: 15px 0;
+            border-left: 4px solid #b8860b;
+            font-style: italic;
+            border-radius: 8px;
+            color: #333;
+        }
+        #reviews p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <div>
+            <h1>Barbería Alfa</h1>
+        </div>
+        <ul>
+            <li><a href="#about">Sobre Nosotros</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#reviews">Reseñas</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="banner">
+    <h2>Bienvenido a Barbería Alfa</h2>
+    <p>Donde tu estilo cobra vida</p>
+</div>
+
+<section id="about">
+    <h2>Sobre Nosotros</h2>
+    <img src="https://img.freepik.com/fotos-premium/foto-perfil-joven-peluquero-recortando-cabello-su-cliente-afeitadora-electrica-peine-barberia_283617-3161.jpg?w=740" alt="Barbero trabajando">
+    <div class="text-container">
+        <p>En <strong>Barbería Alfa</strong>, nos especializamos en brindarte una <strong>experiencia de barbería inigualable</strong>, donde cada detalle está diseñado para ofrecerte un <strong>servicio excepcional</strong>. Contamos con un equipo de <strong>barberos altamente calificados</strong> y con años de experiencia, siempre atentos a las <strong>últimas tendencias</strong> y técnicas en cortes de cabello y estilos de barba. Nos apasiona realzar tu <strong>estilo personal</strong> y adaptarnos a tus preferencias para ayudarte a proyectar una imagen auténtica y moderna.</p>
+    
+        <p>Nuestra misión es hacer de cada visita una <strong>experiencia única</strong> en un <strong>ambiente acogedor y relajante</strong>, ideal para que disfrutes de un momento de <strong>cuidado personal</strong>. En Barbería Alfa no solo realizamos cortes y arreglos de barba, sino que nos esforzamos en crear un espacio donde puedas <strong>renovarte y sentirte a gusto</strong>.</p>
+    </div>
+    <link rel="stylesheet" href="estilos.css">
+</section>
+
+<section id="services">
+    <h2>Servicios</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Corte de Cabello</h3>
+            <p>● Desde $25,000 COP</p>
+            <p>Un corte de cabello a la medida, según tu estilo.</p>
+        </div>
+        <div class="service">
+            <h3>Afeitado Clásico</h3>
+            <p>● Desde $20,000 COP</p>
+            <p>Afeitado tradicional con navaja y toalla caliente.</p>
+        </div>
+        <div class="service">
+            <h3>Barba y Bigote</h3>
+            <p>● Desde $30,000 COP</p>
+            <p>Diseño y mantenimiento de barba y bigote.</p>
+        </div>
+    </div>
+</section>
