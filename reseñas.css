@@ -1,0 +1,26 @@
+#reviews {
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 700px; 
+}
+
+#reviews h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.reviews blockquote {
+    margin: 15px 0; 
+    padding: 10px 15px;
+    border-left: 4px solid #b8860b; 
+    background-color: #f9f9f9;
+    color: #555;
+}
+
+.reviews p {
+    font-style: italic;
+    margin: 0;
+    color: #333;
+}

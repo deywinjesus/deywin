@@ -1,0 +1,19 @@
+/* Estilo para el eslogan */
+#slogan {
+    font-family: 'Arial', sans-serif;  /* Tipografía moderna */
+    font-size: 1.5rem;                /* Tamaño de fuente mayor para destacar */
+    font-weight: bold;                /* Resalta el texto con negritas */
+    text-align: center;               /* Centra el eslogan */
+    color: #333333;                   /* Color de texto oscuro para buena legibilidad */
+    background-color: #f0f0f0;        /* Fondo suave para destacar el texto */
+    padding: 20px;                    /* Espaciado alrededor del texto */
+    border-radius: 10px;              /* Bordes redondeados */
+    margin-top: 30px;                 /* Espacio desde el top */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Sombra sutil para agregar profundidad */
+    text-transform: uppercase;        /* Transforma el texto a mayúsculas */
+}
+
+#slogan span {
+    color: #b8860b;  /* Resaltar una parte del eslogan con un color dorado */
+    font-style: italic; /* Estilo cursivo para diferenciar */
+}

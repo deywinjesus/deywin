@@ -1,0 +1,29 @@
+/* Para el párrafo de "Sobre Nosotros" */
+#about .text-container {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+/* Para los bloques de reseñas */
+#reviews .reviews {
+    max-width: 700px; /* Limita el ancho para legibilidad */
+    margin: 0 auto; /* Centra el contenido */
+}
+
+#reviews blockquote {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid #b8860b; /* Línea de borde */
+    font-style: italic;
+    border-radius: 8px;
+    color: #333;
+}
+
+#reviews p {
+    margin: 0;
+}
